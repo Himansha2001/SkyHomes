@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Users, Target, Eye, Heart, Calendar, Trophy, ChevronDown, ChevronUp } from 'lucide-react';
+import { Users, Target, Eye, Heart, Trophy, ChevronDown, ChevronUp } from 'lucide-react';
 import { teamMembers, milestones } from '../data/sampleData';
 
 const About: React.FC = () => {

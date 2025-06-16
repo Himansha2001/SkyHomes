@@ -246,17 +246,14 @@ const Contact: React.FC = () => {
                 <p>Stay updated with the latest properties and market insights on our social media channels.</p>
                 
                 <div className="social-links">
-                  <a href="#" className="social-link facebook">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link facebook">
                     <Facebook size={20} />
-                    <span>Facebook</span>
                   </a>
-                  <a href="#" className="social-link linkedin">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link linkedin">
                     <Linkedin size={20} />
-                    <span>LinkedIn</span>
                   </a>
-                  <a href="#" className="social-link instagram">
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link instagram">
                     <Instagram size={20} />
-                    <span>Instagram</span>
                   </a>
                 </div>
               </div>

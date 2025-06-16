@@ -55,13 +55,13 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <h3 className="footer-title">Follow Us</h3>
             <div className="social-links">
-              <a href="#" className="social-link" aria-label="Facebook">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="social-link" aria-label="LinkedIn">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="social-link" aria-label="Instagram">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
             </div>
@@ -74,8 +74,8 @@ const Footer: React.FC = () => {
         <div className="footer-bottom">
           <p>&copy; 2025 SeaPonyStudios. All rights reserved.</p>
           <div className="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/terms-of-service">Terms of Service</a>
           </div>
         </div>
       </div>
