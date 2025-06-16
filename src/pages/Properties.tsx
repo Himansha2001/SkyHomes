@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Search, Filter, MapPin, Bed, Bath, Square, Eye } from 'lucide-react';
 import { properties } from '../data/sampleData';
-import { Property } from '../types';
+import type { Property } from '../types';
 
 const Properties: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -17,7 +17,7 @@ const Properties: React.FC = () => {
     return `Rs. ${(price / 1000000).toFixed(1)}M`;
   };
 
-  const filteredProperties = useMemo(() => {
+  const filteredProperties = useMemo<Property[]>(() => {
     return properties.filter((property) => {
       const matchesSearch = property.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                           property.location.toLowerCase().includes(searchTerm.toLowerCase());
